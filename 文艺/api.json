@@ -1,159 +1,139 @@
 {
-    "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;f825a0ce4269de14fdeab22d9418472e",
+    "spider": "https://gitdl.cn/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;1c42ad649c8b8acdfb944509d62bda75",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
             "key": "播客",
-            "name": "播客",
+            "name": "播客｜综合",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/播客.js"
         },
         {
             "key": "配置中心",
-            "name": "配置中心",
+            "name": "配置｜中心",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0,
             "changeable": 0,
+            "indexs": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
-            },
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;765dcc77b86562dfc48ede664417ac60"
+            }
         },
         {
-            "key": "DJ音乐",
-            "name": "DJ音乐",
+            "key": "呦呦DJ",
+            "name": "呦呦｜DJ",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/DJ音乐.js"
-        },
-        {
-            "key": "啦啦DJ",
-            "name": "啦啦DJ",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/啦啦DJ.js"
+            "ext": "./js/呦呦DJ.js"
         },
         {
             "key": "清风DJ",
-            "name": "清风DJ",
+            "name": "清风｜DJ",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/清风DJ.js"
         },
         {
             "key": "爱车MV",
-            "name": "爱车MV",
+            "name": "爱车｜MV",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/爱车MV.js"
         },
         {
             "key": "酷奇MV",
-            "name": "酷奇MV",
+            "name": "酷奇｜MV",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/酷奇MV.js"
         },
         {
             "key": "蜻蜓FM",
-            "name": "蜻蜓FM",
+            "name": "蜻蜓｜FM",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/蜻蜓FM.js"
         },
         {
-            "key": "听书网",
-            "name": "听书网",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/听书网.js"
-        },
-        {
             "key": "博看听书",
-            "name": "博看听书",
+            "name": "博看｜听书",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/博看听书.js"
         },
         {
-            "key": "海洋听书",
-            "name": "海洋听书",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/海洋听书.js"
-        },
-        {
             "key": "六月听书",
-            "name": "六月听书",
+            "name": "六月｜听书",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/六月听书.js"
         },
         {
-            "key": "喜马拉雅",
-            "name": "喜马拉雅",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/喜马拉雅.js"
-        },
-        {
-            "key": "有声绘本网",
-            "name": "有声绘本网",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/有声绘本网.js"
-        },
-        {
-            "key": "有声小说吧",
-            "name": "有声小说吧",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/有声小说吧.js"
-        },
-        {
             "key": "爱上你听书网",
-            "name": "爱上你听书网",
+            "name": "爱上你｜听书",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/爱上你听书网.js"
         },
         {
-            "key": "小品网",
-            "name": "小品网",
+            "key": "有声绘本网",
+            "name": "有声绘本｜听书",
             "type": 3,
             "api": "./js/drpy2.min.js",
-            "ext": "./js/小品网.js"
-        },
-        {
-            "key": "相声随身听",
-            "name": "相声随身听",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/相声随身听.js"
+            "ext": "./js/有声绘本网.js"
         },
         {
             "key": "评书随身听",
-            "name": "评书随身听",
+            "name": "评书｜在线",
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/评书随身听.js"
         },
         {
-            "key": "哔哩哔哩戏曲",
-            "name": "哔哩哔哩戏曲",
+            "key": "哔哩哔哩相声",
+            "name": "相声｜哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
             "quickSearch": 0,
             "filterable": 0,
-            "ext": "./json/哔哩哔哩戏曲.json"
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/哔哩哔哩相声.json"
+            }
+        },
+        {
+            "key": "哔哩哔哩小品",
+            "name": "小品｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/哔哩哔哩小品.json"
+            }
+        },
+        {
+            "key": "哔哩哔哩戏曲",
+            "name": "戏曲｜哔哩",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt",
+                "json": "./json/哔哩哔哩戏曲.json"
+            }
         },
         {
             "key": "push_agent",
-            "name": "推送",
+            "name": "手机｜推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
@@ -161,9 +141,10 @@
             "changeable": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
-            },
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;765dcc77b86562dfc48ede664417ac60"
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "danmu": true
+            }
         }
     ],
     "parses": [
@@ -171,6 +152,158 @@
             "name": "聚合",
             "type": 3,
             "url": "Demo"
+        },
+        {
+            "name": "XGJ专线",
+            "type": "1",
+            "url": "http://43.248.100.147:1122/bba/json.php?url=",
+            "flag": [
+                "BBA"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "XMY专线",
+            "type": "1",
+            "url": "http://121.62.61.51:6888/api/?key=LHypix08ov3mx0Tyd7&url=",
+            "flag": [
+                "NBY"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "LX专线",
+            "type": "1",
+            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
+            "flag": [
+                "LXTX"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "DG专线",
+            "type": "1",
+            "url": "http://103.112.185.139:8989/api/?key=przwarpy6rKVZ7YA38&url=",
+            "flag": [
+                "SDLG"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "OL专线",
+            "type": "1",
+            "url": "http://110.40.39.158:5000/api/jiexi/common?Key=7idBzIqEEFyf4AYYXt&url=",
+            "flag": [
+                "BTOL"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "4K专线",
+            "type": "1",
+            "url": "http://110.42.7.182:881/api/?key=KzBLknjaz7nv2de8Yn&url=",
+            "flag": [
+                "4kvip"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "MX专线",
+            "type": "1",
+            "url": "http://110.42.7.182:881/api/?key=KzBLknjaz7nv2de8Yn&url=",
+            "flag": [
+                "m78"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "BD专线",
+            "type": "1",
+            "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
+            "flag": [
+                "nmys"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "MY专线",
+            "type": "1",
+            "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
+            "flag": [
+                "mytv"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "LL专线",
+            "type": "1",
+            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
+            "flag": [
+                "youku",
+                "qq",
+                "qiyi",
+                "bilibili",
+                "mgtv",
+                "pptv",
+                "xigua"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "XGJ专线",
+            "type": "1",
+            "url": "http://43.248.100.147:1122/XGJ/keyef2f3dc4asd1fd564f132asc2asd1f.php?url=",
+            "flag": [
+                "youku",
+                "qq",
+                "qiyi",
+                "bilibili",
+                "mgtv",
+                "pptv",
+                "xigua",
+                "NBY",
+                "ETH-",
+                "mytv",
+                "nmys",
+                "BTOL",
+                "caihongyun",
+                "4kvip",
+                "m78"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "DM专线",
+            "type": "1",
+            "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
+            "flag": [
+                "yhdm"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
         },
         {
             "name": "线路1",
@@ -205,16 +338,6 @@
         {
             "name": "线路4",
             "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url=",
-            "ext": {
-                "header": {
-                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "线路5",
-            "type": 0,
             "url": "https://jx.aidouer.net/?url=",
             "ext": {
                 "header": {
@@ -224,27 +347,22 @@
             }
         },
         {
-            "name": "线路6",
-            "type": 0,
-            "url": "https://jx.777jiexi.com/player/?url="
-        },
-        {
-            "name": "线路7",
+            "name": "线路5",
             "type": 0,
             "url": "https://www.8090g.cn/?url="
         },
         {
-            "name": "线路8",
+            "name": "线路6",
             "type": 0,
             "url": "https://jx.yangtu.top?url="
         },
         {
-            "name": "线路9",
+            "name": "线路7",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         },
         {
-            "name": "线路10",
+            "name": "线路8",
             "type": 0,
             "url": "https://www.ckplayer.vip/jiexi/?url="
         }
@@ -297,9 +415,9 @@
         {
             "name": "live",
             "type": 0,
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
+            "url": "https://gitdl.cn/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
         }
     ],
     "flags": [
