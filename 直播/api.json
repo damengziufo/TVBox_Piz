@@ -1,16 +1,16 @@
 {
-    "spider": "https://gitdl.cn/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/danmu.jar;md5;1c42ad649c8b8acdfb944509d62bda75",
+    "spider": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;34c7c3e4a322bcb666145dd87fa68e9f",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
         {
-            "key": "网络直播",
-            "name": "网络｜直播",
+            "key": "Alllive",
+            "name": "一直播｜首页",
             "type": 3,
-            "api": "csp_Yj1211",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://gitdl.cn/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/spider.jar;md5;20d2ee18388ea23295700d9cfb6648c8"
+            "api": "csp_Alllive",
+            "playerType": 2,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "配置中心",
@@ -24,14 +24,6 @@
                 "type": "rect",
                 "ratio": 1.597
             }
-        },
-        {
-            "key": "网红直播",
-            "name": "网红｜直播",
-            "type": 3,
-            "api": "csp_JustLive",
-            "searchable": 1,
-            "changeable": 0
         },
         {
             "key": "快手直播",
@@ -125,11 +117,29 @@
     ],
     "lives": [
         {
-            "name": "live",
+            "name": "直播1",
             "type": 0,
-            "url": "https://gitdl.cn/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
+            "url": "https://github.ednovas.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
             "playerType": 1,
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "直播2",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 1
+        },
+        {
+            "name": "直播3",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/Gather",
+            "playerType": 1
+        },
+        {
+            "name": "直播4",
+            "type": 0,
+            "url": "http://mmitv.top/pltv/merization.php?id=list&user=t0k1b5&token=17af41bb&text=diypbox",
+            "playerType": 1
         }
     ],
     "ijk": [
